@@ -31,12 +31,12 @@ Once the bot is running, you can use these commands in the Telegram chat,:
    cd YOUR_REPO_NAME
 2.**install Dependencies:**
 
-####Bash:npm install
+#### Bash:npm install
 Configure Environment Variables: Create a .env file in the root directory and add your secret keys:
 TELEGRAM_TOKEN=your_bot_token_here
 NEWS_API_KEY=your_newsapi_key_here
 Add Firebase Credentials: Place your Firebase service account file (Key.json) in the root folder. (Note: This file is ignored by git for security).
-###Run the Bot:
-   ####Bash:node index.js
+### Run the Bot:
+   #### Bash:node index.js
 ## 🔒 Security Note
 The .gitignore file ensures that sensitive files like .env and Key.json are never uploaded to GitHub, protecting the developer's private API credentials.
